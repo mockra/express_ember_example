@@ -2,6 +2,12 @@
   "name": "your-app",
   "version": "0.0.1",
   "main": "public/app.js",
-  "dependencies": {},
-  "overrides": {}
+  "dependencies": {
+    "ember": "~1.2.0",
+    "ember-data-shim": "~0.0.14"
+  },
+  "overrides": {},
+  "resolutions": {
+    "ember": "~1.2.0"
+  }
 }
