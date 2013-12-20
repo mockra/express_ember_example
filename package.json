@@ -17,6 +17,8 @@
     "uglify-js-brunch": ">= 1.0 < 1.8",
     "clean-css-brunch": ">= 1.0 < 1.8",
     "auto-reload-brunch": ">= 1.0 < 1.8",
-    "ember-handlebars-brunch": "~1.1.0"
+    "ember-handlebars-brunch": "~1.1.0",
+    "express": "~3.4.7",
+    "mongoose": "~3.8.3"
   }
 }
