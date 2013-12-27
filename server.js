@@ -18,6 +18,9 @@ if ('development' === app.get('env')) {
   app.use(express.errorHandler());
 }
 
+// Require the routes file
+require('./server/routes')(app);
+
 app.get('/app.js', function(req, res) {
   return res.sendfile('./public/app.js');
 });

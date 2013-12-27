@@ -1,5 +1,6 @@
 App.Router.map(function() {
-  return this.resource('todos', {
-    path: '/'
-  }, function() {});
+  this.resource('todos', { path: '/' }, function() {
+    this.route('active');
+    this.route('completed');
+  });
 });
